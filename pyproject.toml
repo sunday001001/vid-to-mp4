@@ -7,3 +7,5 @@ requires-python = ">=3.14"
 dependencies = [
     "ffmpeg-python>=0.2.0",
 ]
+[project.scripts]
+video-convert = "convert:main"
