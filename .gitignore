@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (uv & venv)
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+# launch.json은 개인적인 경로가 포함되어 있으므로 제외하는 것이 일반적입니다.
+# 만약 팀과 공유해야 한다면 아래 줄을 주석 처리하세요.
+.vscode/launch.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python tools
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Project specific
+*.mp4
+# 변환 결과물인 mp4 파일을 저장소에 올리지 않으려면 위 줄을 유지하세요.
